@@ -33,5 +33,5 @@ jobs:
       - name: intall surge
         run: npm install -g surge
       - name: run surge
-        run: surge ./ Saasdeploy21.surge.sh --token ${{secret.SURGE_TOKEN}}
+        run: surge ./ Saasdeploy21.surge.sh --token ${{secrets.SURGE_TOKEN}}
         
