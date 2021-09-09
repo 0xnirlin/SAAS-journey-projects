@@ -32,6 +32,6 @@ jobs:
           node-version: 12
       - name: intall surge
         run: npm install -g surge
-      - name: run surge
+      - name: run Surge
         run: surge ./ Saasdeploy21.surge.sh --token ${{secrets.SURGE_TOKEN}}
         
